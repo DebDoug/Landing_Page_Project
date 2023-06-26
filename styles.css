@@ -58,6 +58,12 @@ body{
     border: 4px solid #99E2B4;
 }
 
+.sign-up:hover{
+    background-color:#469D89;
+    border: 4px solid #469D89;
+    box-shadow: inset;
+}
+
 .random-info{
     background-color: #469D89;
     display: flex;
@@ -118,7 +124,39 @@ body{
     padding-top: 20px;
 }
 
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: #78C6A3;
+}
 
+.modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: seagreen;
+    width: 800px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    border: 4px solid aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2{
+    padding: 0;
+}
+
+.sign-up-2{
+    height: 50px;
+    width: 150px;
+}
 
 .footer{
     display: flex;
